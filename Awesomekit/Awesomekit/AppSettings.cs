@@ -1,10 +1,7 @@
-﻿using System;
-namespace Awesomekit
+﻿namespace Awesomekit
 {
     public class AppSettings
     {
-        public AppSettings()
-        {
-        }
+        public const string TransitionMessage = "Transition";
     }
 }

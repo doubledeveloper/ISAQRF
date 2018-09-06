@@ -32,7 +32,7 @@ namespace Awesomekit
                 Logo.ScaleTo(10, 2000)
                 );
 
-             Navigation.PushAsync(new LoginPage());
+             await Navigation.PushAsync(new LoginPage());
         }
     }
 }

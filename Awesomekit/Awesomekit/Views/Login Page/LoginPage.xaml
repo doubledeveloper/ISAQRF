@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions" xmlns:views="clr-namespace:Awesomekit.Views;assembly=Awesomekit" x:Class="Awesomekit.Views.LoginPage.LoginPage">
     <ContentPage.Content>
+<<<<<<< HEAD
     <ScrollView  Orientation = "Vertical" >
         <StackLayout>
             <Image Margin="0,20,0,0"  Source="headerimg.jpg">
@@ -23,6 +24,22 @@
                         </StackLayout>
                     </Frame>
         </StackLayout>
+=======
+        <ScrollView Orientation="Vertical" BackgroundColor="#e7e5dd">
+            <StackLayout>
+                <Image Margin="0,10,0,0" Source="headerimg.jpg">
+                </Image>
+                <Label HorizontalTextAlignment="Center" Text="Integrated Software Applications, Inc. was founded in 1997. Union Manager©, ISA’s flagship product was initially developed for IBEW Local 349 in Miami, Florida. Since then, ISA’s software has been deployed to Local Union Business Offices, Apprenticeship Training Facilities, and Union Trust Fund Offices throughout the United States and Canada." Margin="10" />
+                <!--  Buttons   -->
+                <Frame VerticalOptions="EndAndExpand" OutlineColor="Gray" Opacity="1" Margin="10,0,10,0" BackgroundColor="#fefefe">
+                    <StackLayout>
+                        <Button Text="Scan QR Code" Font="18" TextColor="White" BackgroundColor="#48120a" />
+                        <Button Text="Enter Code" Font="18"  BackgroundColor="#48120a" TextColor="White" Clicked="Handle_Clicked" />
+                        <Button Text="Login" Font="18"  TextColor="White" BackgroundColor="#48120a" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+>>>>>>> fcbcad9... Apurv
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

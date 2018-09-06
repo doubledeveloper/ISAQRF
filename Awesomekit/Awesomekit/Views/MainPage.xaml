@@ -52,13 +52,5 @@
                 </Image.TranslationY>
             </Image>
         </Grid>
-
-
-
-
-
-
-        
-
     </Grid>
 </mvvm:BaseView>
