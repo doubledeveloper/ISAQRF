@@ -7,7 +7,6 @@
         <StackLayout>
             <Image Margin="0,20,0,0"  Source="headerimg.jpg">
             </Image>
-                    <Image Margin="0,20,0,0"  Source="headerimg.jpg">            </Image>
 
                 
             <Label Text="Integrated Software Applications, Inc. was founded in 1997. Union Manager©, ISA’s flagship product was initially developed for IBEW Local 349 in Miami, Florida. Since then, ISA’s software has been deployed to Local Union Business Offices, Apprenticeship Training Facilities, and Union Trust Fund Offices throughout the United States and Canada." Margin="10,30"/>
