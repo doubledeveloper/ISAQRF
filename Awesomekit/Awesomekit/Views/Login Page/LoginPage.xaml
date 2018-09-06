@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions" xmlns:views="clr-namespace:Awesomekit.Views;assembly=Awesomekit" x:Class="Awesomekit.Views.LoginPage.LoginPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions" xmlns:views="clr-namespace:Awesomekit.Views;assembly=Awesomekit" x:Class="Awesomekit.Views.LoginPage.LoginPage">
     <ContentPage.Content>
-<<<<<<< HEAD
-    <ScrollView  Orientation = "Vertical" >
-        <StackLayout>
-            <Image Margin="0,20,0,0"  Source="headerimg.jpg">
-            </Image>
-
-                
-            <Label Text="Integrated Software Applications, Inc. was founded in 1997. Union Manager©, ISA’s flagship product was initially developed for IBEW Local 349 in Miami, Florida. Since then, ISA’s software has been deployed to Local Union Business Offices, Apprenticeship Training Facilities, and Union Trust Fund Offices throughout the United States and Canada." Margin="10,30"/>
-            <!--  Buttons   -->
-                <Frame OutlineColor="Gray" Opacity="1" Margin="10,0,10,0" BackgroundColor="#fefefe">
-                <StackLayout >
-            <Button Text="Scan QR Code" TextColor="White" BackgroundColor="#48120a" />
-<<<<<<< HEAD
-            <Button Text="Enter Code" Margin="0,10,0,0" BackgroundColor="#48120a" TextColor="White" />
-=======
-            <Button Text="Enter Code" Margin="0,10,0,0" BackgroundColor="#48120a" TextColor="White" Clicked="Handle_Clicked"/>
->>>>>>> f84133d... Apurv
-            <Button Text="Login" Margin="0,10,0,0" TextColor="White" BackgroundColor="#48120a"/>   
-                        </StackLayout>
-                    </Frame>
-        </StackLayout>
-=======
-        <ScrollView Orientation="Vertical" BackgroundColor="#e7e5dd">
+        <ScrollView BackgroundColor="#e7e5dd" Orientation="Vertical">
             <StackLayout>
                 <Image Margin="0,20,0,0" Source="headerimg.jpg">
                 </Image>
@@ -34,12 +10,11 @@
                 <Frame VerticalOptions="EndAndExpand" OutlineColor="Gray" Opacity="1" Margin="10,0,10,30" BackgroundColor="#fefefe">
                     <StackLayout>
                         <Button Text="Scan QR Code" Font="18" TextColor="White" BackgroundColor="#48120a" />
-                        <Button Text="Enter Code" Font="18" Margin="0,10,0,10" BackgroundColor="#48120a" TextColor="White" Clicked="Handle_Clicked" />
-                        <Button Text="Login" Font="18"  TextColor="White" BackgroundColor="#48120a" />
+                        <Button Text="Enter Code" Font="18" Margin="0,10,0,10" BackgroundColor="#48120a" TextColor="White" />
+                        <Button Text="Login" Font="18" TextColor="White" BackgroundColor="#48120a" />
                     </StackLayout>
                 </Frame>
             </StackLayout>
->>>>>>> fcbcad9... Apurv
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
