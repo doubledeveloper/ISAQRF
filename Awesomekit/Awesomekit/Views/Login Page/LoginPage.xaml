@@ -12,7 +12,11 @@
                 <Frame OutlineColor="Gray" Opacity="1" Margin="10,0,10,0" BackgroundColor="#fefefe">
                 <StackLayout >
             <Button Text="Scan QR Code" TextColor="White" BackgroundColor="#48120a" />
+<<<<<<< HEAD
             <Button Text="Enter Code" Margin="0,10,0,0" BackgroundColor="#48120a" TextColor="White" />
+=======
+            <Button Text="Enter Code" Margin="0,10,0,0" BackgroundColor="#48120a" TextColor="White" Clicked="Handle_Clicked"/>
+>>>>>>> f84133d... Apurv
             <Button Text="Login" Margin="0,10,0,0" TextColor="White" BackgroundColor="#48120a"/>   
                         </StackLayout>
                     </Frame>
