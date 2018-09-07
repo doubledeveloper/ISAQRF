@@ -145,6 +145,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable\img1.png" />
     <AndroidResource Include="Resources\drawable\headerimg.jpg" />
+    <AndroidResource Include="Resources\drawable\TransparentBrown.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />

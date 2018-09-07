@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions" xmlns:views="clr-namespace:Awesomekit.Views;assembly=Awesomekit" x:Class="Awesomekit.Views.LoginPage.LoginPage">
     <ContentPage.Content>
-        <ScrollView BackgroundColor="#e7e5dd" Orientation="Vertical">
-            <StackLayout>
-                <Image Margin="0,20,0,0" Source="headerimg.jpg">
-                </Image>
+        <ScrollView BackgroundColor="#ECEAE3" Orientation="Vertical">
+            <StackLayout >
+                <Image Source="headerimg.jpg" />
                 <Label HorizontalTextAlignment="Center" Text="Integrated Software Applications, Inc. was founded in 1997. Union Manager©, ISA’s flagship product was initially developed for IBEW Local 349 in Miami, Florida. Since then, ISA’s software has been deployed to Local Union Business Offices, Apprenticeship Training Facilities, and Union Trust Fund Offices throughout the United States and Canada." Margin="10" />
-                <!--  Buttons   -->
-                <Frame VerticalOptions="EndAndExpand" OutlineColor="Gray" Opacity="1" Margin="10,0,10,30" BackgroundColor="#fefefe">
-                    <StackLayout>
-                        <Button Text="Scan QR Code" Font="18" TextColor="White" BackgroundColor="#48120a" />
-                        <Button Text="Enter Code" Font="18" Margin="0,10,0,10" BackgroundColor="#48120a" TextColor="White" />
-                        <Button Text="Login" Font="18" TextColor="White" BackgroundColor="#48120a" />
+                <AbsoluteLayout Margin="20,0,20,20" VerticalOptions="EndAndExpand" HeightRequest="220">
+                    <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="Fill" Source="TransparentBrown.png" Opacity="0.2"/>
+                    <StackLayout HorizontalOptions="FillAndExpand" AbsoluteLayout.LayoutBounds="0,0,1,45" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Margin="20">
+                        <!--  Buttons   -->
+                        <Button Text="Scan QR Code" Font="Bold,20" Margin="0,10,0,10" TextColor="White" BackgroundColor="#68342c" />
+                        <Button Text="Enter Code" Font="Bold,20" Margin="0,0,0,10" BackgroundColor="#68342c" TextColor="White" />
+                        <Button Text="Login" Font="Bold,20" Margin="0,0,0,10" TextColor="White" BackgroundColor="#68342c" />
                     </StackLayout>
-                </Frame>
+                </AbsoluteLayout>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

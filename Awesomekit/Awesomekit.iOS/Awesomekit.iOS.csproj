@@ -112,6 +112,7 @@
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <BundleResource Include="Resources\img1.png" />
     <BundleResource Include="Resources\headerimg.jpg" />
+    <BundleResource Include="Resources\TransparentBrown.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">

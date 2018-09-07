@@ -20,7 +20,7 @@ namespace Awesomekit.Views.LoginPage
         void Handle_Clicked(object sender, System.EventArgs e)
         {
              //MessagingCenter.Send(this, AppSettings.TransitionMessage, TransitionType.Flip);
-            Navigation.PushAsync(new Login());
+            //Navigation.PushAsync(new Login());
 
         }
     }
