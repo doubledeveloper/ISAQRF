@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Awesomekit.Views.LoginPage.Login">
     <ContentPage.Content>
-        <StackLayout Padding="20">
-            <Entry Text="" Placeholder="Enter Username" x:Name="UsernameEntry" />
-            <Entry Text="" Placeholder="Enter Password" IsPassword="true" x:Name="PasswordEntry" />
-            <Button Text="Submit" BorderColor="Yellow" TextColor="Black" BackgroundColor="Yellow" Clicked="Submit_Clicked" />
+        <StackLayout BackgroundColor="Lime">
+            <StackLayout Padding="10" BackgroundColor="Navy" VerticalOptions="CenterAndExpand" >
+                <Entry Text="" Placeholder="Enter Username" x:Name="UsernameEntry"  />
+                <Entry Text="" Placeholder="Enter Password" IsPassword="true" x:Name="PasswordEntry" />
+                <Button Text="Submit" BorderColor="Yellow" TextColor="Black" BackgroundColor="Yellow" Clicked="Submit_Clicked" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

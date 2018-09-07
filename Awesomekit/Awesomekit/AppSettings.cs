@@ -1,4 +1,4 @@
-﻿namespace Awesomekit
+﻿namespace TransitionNavigationPage
 {
     public class AppSettings
     {

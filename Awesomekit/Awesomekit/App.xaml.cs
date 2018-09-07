@@ -25,6 +25,8 @@ namespace Awesomekit
             //MainPage = new NavigationPage(new MainPage());
             NavigationPage.SetHasNavigationBar(this, false);
 
+            //MainPage = new Controls.TransitionNavigationPage((Page)ViewFactory.CreatePage<MainViewModel, MainPage>());
+
             MainPage = new NavigationPage((Page)ViewFactory.CreatePage<MainViewModel, MainPage>());
 
         }
